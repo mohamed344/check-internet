@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title{
+    font-size: 35px;
+}
+ul{
+    position: relative;
+    left: 30px;
+    margin: 5px 0;
+}
+.reload{
+    padding: 10px;
+    background-color: #333;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0;
+    color: #fff;
+    cursor: pointer;
+}
+.reload:hover{
+    background-color: #666;
+}
+.hide{
+    display: none;
+}
